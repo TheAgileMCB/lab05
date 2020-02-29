@@ -86,7 +86,7 @@ function sumArray(sumArr) { //eslint-disable-line
   console.log(x);
   var theSum = sum(x,sumArr[2])[0];
   console.log(theSum);
-  console.log([theSum, sumArr[0] + sumArr[1] + sumArr[2] + ' was passed in as an array of numbers, and ' + theSum + ' is their sum.']);
+  return[theSum, sumArr[0] + ',' + sumArr[1] + ',' + sumArr[2] + ' was passed in as an array of numbers, and ' + theSum + ' is their sum.'];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
